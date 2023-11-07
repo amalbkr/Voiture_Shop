@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   springboot-app:
-    image: amalbkr99/springdata
+    image: amalbkr99/springdata:latest
     ports:
       - "8080:8080"
     environment:
@@ -18,7 +18,7 @@ services:
       - MYSQL_DATABASE=springboot
 
   react-frontend:
-    image: amalbkr99/react_container
+    image: amalbkr99/react_container:latest
     ports:
       - "3000:3000"
 
