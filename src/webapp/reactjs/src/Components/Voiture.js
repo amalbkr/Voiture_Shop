@@ -156,7 +156,7 @@ const Voiture = () => {
                                         name="annee"
                                         value={voiture.annee}
                                         onChange={voitureChange}
-                                        className={"bg-dark text-white"}
+                                        className={"bg-dark text-dark"}
                                         placeholder="Entrez l'année"
                                     />
                                 </FormGroup>
