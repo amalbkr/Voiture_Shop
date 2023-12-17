@@ -157,7 +157,7 @@ const Voiture = () => {
                                         value={voiture.annee}
                                         onChange={voitureChange}
                                         className={"bg-dark text-white"}
-                                        placeholder="Entrez l'année"
+                                        placeholder="Entrez l'année de l'achat"
                                     />
                                 </FormGroup>
                             </Col>
@@ -172,8 +172,8 @@ const Voiture = () => {
                                         value={voiture.prix}
                                         onChange={voitureChange}
                                         className={"bg-dark text-white"}
-                                        placeholder="Entrez le prix Totale"
-                                    />
+                                        placeholder="Entrez les prix"
+                    />
                                 </FormGroup>
                             </Col>
                         </Row>
