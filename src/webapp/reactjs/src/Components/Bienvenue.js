@@ -13,6 +13,7 @@ class Bienvenue extends React.Component {
                                     Bienvenue au Magasin des Voitures
                                 </Card.Title>
                                 <Card.Text className="text-center lead">
+
                           Découvrez notre incroyable collection de voitures de luxe près de chez moi.
                                 </Card.Text>
                             </Card.Body>
