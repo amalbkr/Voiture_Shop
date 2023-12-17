@@ -142,7 +142,7 @@ const Voiture = () => {
                                         value={voiture.immatricule}
                                         onChange={voitureChange}
                                         className={"bg-dark text-white"}
-                                        placeholder="Entrez l'immatriculation"
+                                        placeholder="Entrez l'immatriculation de la voiture"
                                     />
                                 </FormGroup>
                             </Col>
