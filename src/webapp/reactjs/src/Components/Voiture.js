@@ -125,7 +125,7 @@ const Voiture = () => {
                                         value={voiture.couleur}
                                         onChange={voitureChange}
                                         className={"bg-dark text-white"}
-                                        placeholder="Entrez la couleur"
+                                        placeholder="Entrez la couleur de la voiture"
                                     />
                                 </FormGroup>
                             </Col>
@@ -156,7 +156,7 @@ const Voiture = () => {
                                         name="annee"
                                         value={voiture.annee}
                                         onChange={voitureChange}
-                                        className={"bg-dark text-dark"}
+                                        className={"bg-dark text-white"}
                                         placeholder="Entrez l'année"
                                     />
                                 </FormGroup>
