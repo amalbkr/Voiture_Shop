@@ -176,6 +176,21 @@ const Voiture = () => {
                                     />
                                 </FormGroup>
                             </Col>
+                            <Col>
+                                <FormGroup controlId="formGridPrix">
+                                    <Form.Label>INFO GEN</Form.Label>
+                                    <Form.Control
+                                        required
+                                        autoComplete="off"
+                                        type="text"
+                                        name="prix"
+                                        value={voiture.prix}
+                                        onChange={voitureChange}
+                                        className={"bg-dark text-white"}
+                                        placeholder="Des info generales"
+                                    />
+                                </FormGroup>
+                            </Col>
                         </Row>
                     </Card.Body>
                     <Card.Footer style={{ "textAlign": "right" }}>
