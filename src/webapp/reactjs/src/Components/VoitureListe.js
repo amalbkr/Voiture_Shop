@@ -75,7 +75,8 @@ class VoitureListe extends Component {
                                 <th>Année</th>
                                 <th>Prix</th>
                                 <th>Actions</th>
-                                <th>Info</th>
+                                <th>Informations</th>
+
                             </tr>
                             </thead>
                             <tbody>
