@@ -172,22 +172,7 @@ const Voiture = () => {
                                         value={voiture.prix}
                                         onChange={voitureChange}
                                         className={"bg-dark text-white"}
-                                        placeholder="Entrez le prix"
-                                    />
-                                </FormGroup>
-                            </Col>
-                            <Col>
-                                <FormGroup controlId="formGridPrix">
-                                    <Form.Label>INFO GEN</Form.Label>
-                                    <Form.Control
-                                        required
-                                        autoComplete="off"
-                                        type="text"
-                                        name="prix"
-                                        value={voiture.prix}
-                                        onChange={voitureChange}
-                                        className={"bg-dark text-white"}
-                                        placeholder="Des info generales"
+                                        placeholder="Entrez le prix Totale"
                                     />
                                 </FormGroup>
                             </Col>
