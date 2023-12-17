@@ -173,7 +173,7 @@ const Voiture = () => {
                                         onChange={voitureChange}
                                         className={"bg-dark text-white"}
                                         placeholder="Entrez les prix"
-                                    />
+                    />
                                 </FormGroup>
                             </Col>
                         </Row>
