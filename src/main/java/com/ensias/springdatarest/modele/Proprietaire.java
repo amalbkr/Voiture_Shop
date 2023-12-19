@@ -17,14 +17,18 @@ import java.util.List;
 
 public class Proprietaire {
 
+    @SuppressWarnings({"checkstyle:WhitespaceAround", "checkstyle:JavadocVariable"})
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private long id;
+    @SuppressWarnings("checkstyle:JavadocVariable")
     @NonNull
     private String nom;
+    @SuppressWarnings("checkstyle:JavadocVariable")
     @NonNull
     private String prenom;
 
+    @SuppressWarnings({"checkstyle:WhitespaceAround", "checkstyle:JavadocVariable"})
     @OneToMany(cascade = CascadeType.ALL, mappedBy="proprietaire")
     @JsonIgnore
     private List<Voiture> voitures;

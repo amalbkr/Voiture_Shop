@@ -13,6 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>SpringDataRest</name>
     <description>SpringDataRest</description>
+
     <properties>
             <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
@@ -74,10 +75,24 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>3.7.0.1746</version>
+        </dependency>
 
 
     </dependencies>
-
+    <profiles>
+        <profile>
+            <id>sonar</id>
+            <properties>
+                <sonar.projectKey>MyProject</sonar.projectKey>
+                <sonar.host.url>http://localhost:9000</sonar.host.url>
+                <sonar.login>sqp_db9c9a9732c3f340ba1e2c1480d81a7b1443665f</sonar.login>
+            </properties>
+        </profile>
+    </profiles>
     <build>
         <plugins>
             <plugin>
@@ -92,6 +107,7 @@
                     </excludes>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 
