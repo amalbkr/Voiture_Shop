@@ -172,8 +172,12 @@ const Voiture = () => {
                                         value={voiture.prix}
                                         onChange={voitureChange}
                                         className={"bg-dark text-white"}
+<<<<<<< HEAD
 
                                         placeholder="Entrez les prix"
+=======
+                                        placeholder="Entrez le prix"
+>>>>>>> aa8bbc6025e01713b31b182332876882c6ff3106
                     />
 
                                 </FormGroup>
